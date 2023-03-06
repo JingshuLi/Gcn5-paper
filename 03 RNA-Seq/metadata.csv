@@ -1,0 +1,13 @@
+id,path,condition,replicate,phenotype
+G1,Data/Gcn5 paper/03 RNA-Seq/raw counts/W1_counts.txt,WT,1,WT
+G2,Data/Gcn5 paper/03 RNA-Seq/raw counts/W2_counts.txt,WT,2,WT
+G3,Data/Gcn5 paper/03 RNA-Seq/raw counts/W3_counts.txt,WT,3,WT
+G4,Data/Gcn5 paper/03 RNA-Seq/raw counts/W4_counts.txt,WT,4,WT
+G5,Data/Gcn5 paper/03 RNA-Seq/raw counts/G1_counts.txt,G,1,gcn5c450/c450
+G6,Data/Gcn5 paper/03 RNA-Seq/raw counts/G2_counts.txt,G,2,gcn5c450/c450
+G7,Data/Gcn5 paper/03 RNA-Seq/raw counts/G3_counts.txt,G,3,gcn5c450/c450
+G8,Data/Gcn5 paper/03 RNA-Seq/raw counts/G4_counts.txt,G,4,gcn5c450/c450
+G9,Data/Gcn5 paper/03 RNA-Seq/raw counts/H1_counts.txt,H,1,"gcn5c450,tub-GAL4/c450,UAS-HA-Gcn5"
+G10,Data/Gcn5 paper/03 RNA-Seq/raw counts/H2_counts.txt,H,2,"gcn5c450,tub-GAL4/c450,UAS-HA-Gcn5"
+G11,Data/Gcn5 paper/03 RNA-Seq/raw counts/H3_counts.txt,H,3,"gcn5c450,tub-GAL4/c450,UAS-HA-Gcn5"
+G12,Data/Gcn5 paper/03 RNA-Seq/raw counts/H4_counts.txt,H,4,"gcn5c450,tub-GAL4/c450,UAS-HA-Gcn5"
