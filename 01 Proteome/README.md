@@ -9,7 +9,7 @@ Proteomic data processing
 ## Sheet2: Keeping information only important for calculation
 
 	- Lists: keeping lists of `Area` and simple description
-	- Raws: deleting raws that `Sum Area=0`
+	- Rows: deleting rows that `Sum Area=0`
 
 ## Sheet3: Normalization
 

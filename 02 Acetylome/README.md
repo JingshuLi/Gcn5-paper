@@ -8,8 +8,8 @@ Acetylomic data processing
 
 ## Sheet2: Keeping information only important for calculation
 
-	- Lists: keeping lists of `xx_modified` and simple description
-	- Raws: deleting raws that `Sum Modified=0`
+	- Lists: keeping lists of `xx_modified` and simple descriptions
+	- Rows: deleting rows that `Sum Modified=0`
 
 ## Sheet3: Normalization
 
@@ -27,7 +27,7 @@ Acetylomic data processing
 	- Acetylation sites with more than two missing values in each group were filtered out. 
 	- Log2 fold change, p-value of student t-test, and log10 intensity were calculated and arranged to generate `For violin-gcn5.xlsx` and `For violin-aging.xlsx` in the `04 R codes for drawing plots\02 Violin plot` folder, `Heatmap-gcn5 candidates.xlsx` and `Heatmap-gcn5 candidates align with aging.xlsx` in the `04 R codes for drawing plots\04 Heatmap` folder, and `Aging for line graph.xlsx` in the `04 R codes for drawing plots\07 Line graph` folder.
 	- In Gcn5-related data, to obtain GCN5 candidates, the threshold of significant alterations of relative acetylation level was set as followed: fold change of WT / gcn5c450/c450>1.5, p-value<0.05, two-tailed Student's t test; fold change of gcn5c450,tub-GAL4/c450,UAS-HA-Gcn5 / gcn5c450/c450>1. To obtain GCN5-promoted acetylation sites, the threshold of significant alterations of relative acetylation level was set as followed: fold change of gcn5c450,tub-GAL4/c450,UAS-HA-Gcn5 / WT>1.5, a significance threshold of a testing p-value<0.05, two-tailed Student's t test. 
-	- In aging data, to get age-associated dynamic acetylation sites, we set thresholds as followed: Age-associated increased sites: 45d-specific sites (3d=15d=30d=0); 30d/45d-specific sites (3d=15d=0); 15d/30d/45d-specific sites (3d=0, 15d<30d<45d); and common sites with increased acetylation (3d<15d<30d<45d, p-value of 3d & 45d <0.05, two-tailed Student's t test); Age-associated decreased acetylation sites: 3d-specific sites (15d=30d=45d=0); 3d/15d-specific sites (30d=45d=0); 3d/15d/30d-specific sites (3d>15d>30d, 45d=0); and common sites with decreased acetylation (3d>15d>30d>45d, p-value of 3d & 45d <0.05, two-tailed Student's t test).
+	- In aging data, to get age-associated dynamic acetylation sites, we set thresholds: age-associated increased sites: 45d-specific sites (3d=15d=30d=0); 30d/45d-specific sites (3d=15d=0); 15d/30d/45d-specific sites (3d=0, 15d<30d<45d); and common sites with increased acetylation (3d<15d<30d<45d, p-value of 3d & 45d <0.05, two-tailed Student's t test); age-associated decreased acetylation sites: 3d-specific sites (15d=30d=45d=0); 3d/15d-specific sites (30d=45d=0); 3d/15d/30d-specific sites (3d>15d>30d, 45d=0); and common sites with decreased acetylation (3d>15d>30d>45d, p-value of 3d & 45d <0.05, two-tailed Student's t test).
 
 
 
